@@ -1,0 +1,30 @@
+
+h1{
+    background-color: black;
+    color: azure;
+    font-size: 40px;
+    font-family: cursive
+}
+h1>span{
+    color: aqua;
+    font-size: 40px;
+    font-family: cursive
+}
+.purple { 
+    background-color: indigo;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+}
+.blue { 
+    background-color: lightblue;
+    color: indigo;
+    text-align: right;
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-weight: 475;
+    font-size: 25px;
+}
