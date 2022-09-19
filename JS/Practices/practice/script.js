@@ -1,13 +1,9 @@
-var arr = [2, 4, 6, 8, -2, -5, 4, 9, -60]
+var pTags = document.querySelectorAll("p");
 
-function positiveNegative() {
-    var positive = []
-    var negative = []
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] < 0) {
-            negative.push(arr[i])
-        }
+function getColor(element){
+    console.log(element.value);
+    console.log(pTags);
+    for (var i=0; i<pTags.length; i++){
+        pTags[i].style.color = element.value;
     }
-    console.log(negative)
 }
-positiveNegative()               
