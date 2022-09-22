@@ -23,5 +23,16 @@ async function search() {
     var response = await fetch("https://api.github.com/users/" + currentUsername);
     var coderData = await response.json();
     // console.log(coderData);
-    cardsDiv.innerHTML = makeCoderCard(coderData) + cardsDiv.innerHTML;
+    cardsDiv.innerHTML = makeCoderCard(coderData);
 }
+
+
+// var input = document.querySelector("#search");
+
+// input.addEventListener("keypress", function(event)) {
+//     if(event.key === "Enter"){
+//         event.preventDefault();
+//         document.getElementById("#search").click()
+//     }
+// }
+// $(selector).keyup(function)
